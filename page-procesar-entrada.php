@@ -4,7 +4,7 @@
 Template Name: Página publicaciones entradas desde el front
 
 */
-/* Pueden aplicar esta plantilla de página a cualquier página, y los usuarios podrán publicar en tu blog */
+/* Puedes aplicar esta plantilla de página a cualquier página, y los usuarios podrán publicar entradas en tu blog */
 /* Las entradas se publicarán como 'pending', es decir, deberán ser aprobadas */
 
 
