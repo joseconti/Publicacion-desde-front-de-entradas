@@ -53,7 +53,7 @@ if(isset($_POST['submitted']) && isset($_POST['post_nonce_field']) && wp_verify_
 
 ?>
 
-<!-- Aquí empiza la estrucura y diseño de tu theme, debes sustituirlo por la de tu theme --->
+<!-- Aquí empiza la estrucura y diseño de tu theme, debes sustituirlo por la de tu theme -->
 <?php get_header(); ?>
 
 <div id="primary" class="site-content">
