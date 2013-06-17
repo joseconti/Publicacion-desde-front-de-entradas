@@ -58,10 +58,10 @@ if(isset($_POST['submitted']) && isset($_POST['post_nonce_field']) && wp_verify_
 
 <div id="primary" class="site-content">
 		<div id="content" role="main">
-
-<!-- Comienza el formulario de envio en si -->
-
 			<div id="postbox">
+			
+<!-- Comienza el formulario de envio en si. No debes modificar nada de esta parte, a menos que sepas lo que haces. una vez que finalice este apartado, deberás realizar otras modificaciones para que concuerde nuevamente ocn tu theme -->
+
 					<form action="" id="primaryPostForm" method="POST">
 							<fieldset>
 									<label for="postTitle"><?php _e('Título:', 'framework') ?></label>
@@ -89,9 +89,9 @@ if(isset($_POST['submitted']) && isset($_POST['post_nonce_field']) && wp_verify_
 									<input type="hidden" name="submitted" id="submitted" value="true" />
 									<button type="submit"><?php _e('Añadir entrada', 'framework') ?></button>
 							</fieldset>
-					</form>
-			</div> <!-- Finaliza el formulario de envio de la entrada -->
+					</form> <!-- Finaliza el formulario de envio de la entrada, ya puedes modificar de nuevo -->
 <!-- a partir de aquí, debes modificarlo según la estructura de tu theme para que se ajuste a tu diseño -->
+			</div> 
 		</div><!-- #content -->
 </div><!-- #primary -->
 
