@@ -36,7 +36,7 @@ if(isset($_POST['submitted']) && isset($_POST['post_nonce_field']) && wp_verify_
 
 	if($post_id)
 	{
-		wp_redirect(home_url()); //En estos momentos, se redirige a la Home. Puedes redirigir a una página creada en WordPress, dando las gracias por en envío y avisando que la entrada está pendiente de moderación
+		wp_redirect(home_url()); //En estos momentos se redirige a la Home. Puedes redirigir a una página creada en WordPress, dando las gracias por en envío y avisando que la entrada está pendiente de moderación
 		exit;
 	}
 
