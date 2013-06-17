@@ -36,7 +36,7 @@ if(isset($_POST['submitted']) && isset($_POST['post_nonce_field']) && wp_verify_
 
 	if($post_id)
 	{
-		wp_redirect(home_url());
+		wp_redirect(home_url()); //En estos momentos, se redirige a la Home. Puedes redirigir a una página creada en WordPress, dando las gracias por en envío y avisando que la entrada está pendiente de moderación
 		exit;
 	}
 
@@ -74,7 +74,7 @@ if(isset($_POST['submitted']) && isset($_POST['post_nonce_field']) && wp_verify_
 							
 							
 									<label for="postcontent2"><?php _e('Contenido:', 'framework') ?></label>
-									<?php $postcontent = ''; wp_editor( $postcontent, 'postcontent', $settings = array('wpautop'); //Añadimos el editor de WordPress en el front. En estos momentos (WordPress 3.5.x), parece que hay un bug que solo los Administradores pueden subir imagenes?>
+									<?php $postcontent = ''; wp_editor( $postcontent, 'postcontent', $settings = array('wpautop')); //Añadimos el editor de WordPress en el front. En estos momentos (WordPress 3.5.x), parece que hay un bug que solo los Administradores pueden subir imagenes ?>
 							
 							<fieldset>
 									<label for="postTitle">Selecciona un categoría</label>
